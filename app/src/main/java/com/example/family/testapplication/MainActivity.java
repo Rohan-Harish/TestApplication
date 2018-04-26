@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v)
             {
                 button.setVisibility(View.VISIBLE);
-                button2.setVisibility(View.INVISIBLE);
+                button2.setVisibility(View.INVISIBLE)
             }
         });
         button.setOnClickListener(new View.OnClickListener(){
